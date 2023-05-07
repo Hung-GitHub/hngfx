@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*for pc*/
+
+@media only screen and (min-device-width: 992px) {
+    body {
+        padding: 0;
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        font-family: 'Alkalami', serif;
+    }
+    .content {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .app {
+        padding: 0;
+        margin: 0;
+        width: 90%;
+        height: 100%;
+        position: relative;
+        inset: 0;
+    }
+    .content h3 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 5rem;
+        line-height: 5rem;
+    }
+    .content_img {
+        width: 100%;
+        height: 500px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content_img img {
+        width: 90%;
+        height: 100%;
+    }
+    .content p {
+        position: absolute;
+        top: 40rem;
+    }
+}     
+/*for tablet*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 992px) {
+     body {
+        padding: 0;
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        font-family: 'Alkalami', serif;
+    }
+    .content {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .app {
+        padding: 0;
+        margin: 0;
+        width: 90%;
+        height: 100%;
+        position: relative;
+        inset: 0;
+    }
+    .content h3 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 5rem;
+        line-height: 5rem;
+    }
+    .content_img {
+        width: 100%;
+        height: 500px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content_img img {
+        width: 90%;
+        height: 100%;
+    }
+    .content p {
+        position: absolute;
+        top: 40rem;
+    }
+}
+
+@media only screen and (max-device-width: 768px){
+    body {
+        padding: 0;
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        font-family: 'Alkalami', serif;
+    }
+    .content {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .app {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        inset: 0;
+    }
+    .content h3 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 5rem;
+        line-height: 5rem;
+    }
+    .content_img {
+        width: 100%;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content_img img {
+        width: 100%;
+        height: 100%;
+    }
+    .content p {
+        position: absolute;
+        top: 30rem;
+    }
+}     
